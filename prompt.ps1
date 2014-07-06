@@ -1,6 +1,6 @@
 Add-Type -AssemblyName System.Windows.Forms
 $Form = New-Object system.Windows.Forms.Form
-$Form.Text = "Sample Form"
+$Form.Text = "FBWF Check"
 
 $Icon = [system.drawing.icon]::ExtractAssociatedIcon($PSHOME + "\powershell.exe")
 $Form.Icon = ".\Streambox_128.ico"
