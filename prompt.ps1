@@ -3,9 +3,7 @@ $Form = New-Object system.Windows.Forms.Form
 $Form.Text = "Sample Form"
 
 $Icon = [system.drawing.icon]::ExtractAssociatedIcon($PSHOME + "\powershell.exe")
-$Icon = ".\Streambox_128.ico"
-
-$Form.Icon = $Icon
+$Form.Icon = ".\Streambox_128.ico"
 
 $Image = [system.drawing.image]::FromFile("C:\Program Files\Common Files\microsoft shared\Stationery\Bears.jpg")
 
