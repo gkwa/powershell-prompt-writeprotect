@@ -10,8 +10,8 @@ $Image = [system.drawing.image]::FromFile("C:\Program Files\Common Files\microso
 $Form.BackgroundImage = $Image
 $Form.BackgroundImageLayout = "None"
 # None, Tile, Center, Stretch, Zoom
-$Form.Width = $Image.Width
-$Form.Height = $Image.Height
+# $Form.Width = $Image.Width
+# $Form.Height = $Image.Height
 $Font = New-Object System.Drawing.Font("Times New Roman",24,[System.Drawing.FontStyle]::Italic)
 # Font styles are: Regular, Bold, Italic, Underline, Strikeout
 $Form.Font = $Font
