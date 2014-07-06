@@ -3,7 +3,7 @@ $Form = New-Object system.Windows.Forms.Form
 $Form.Text = "Sample Form"
 
 $Icon = [system.drawing.icon]::ExtractAssociatedIcon($PSHOME + "\powershell.exe")
-$Icon = [system.drawing.icon]::ExtractAssociatedIcon(".\Streambox_128.ico")
+$Icon = ".\Streambox_128.ico"
 
 $Form.Icon = $Icon
 
