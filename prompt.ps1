@@ -7,7 +7,7 @@ $Form.Icon = ".\Streambox_128.ico"
 
 $Image = [system.drawing.image]::FromFile("C:\Program Files\Common Files\microsoft shared\Stationery\Bears.jpg")
 
-$Form.BackgroundImage = $Image
+# $Form.BackgroundImage = $Image
 $Form.BackgroundImageLayout = "None"
 # None, Tile, Center, Stretch, Zoom
 # $Form.Width = $Image.Width
